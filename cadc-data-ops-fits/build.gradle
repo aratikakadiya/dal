@@ -17,7 +17,7 @@ java {
 }
 
 group = 'org.opencadc'
-version = '0.4.2'
+version = '0.4.3'
 
 description = 'OpenCADC FITS cutout library'
 def git_url = 'https://github.com/opencadc/dal'
@@ -28,7 +28,7 @@ dependencies {
     implementation 'org.opencadc:cadc-soda-server:[1.2.1,2.0)'
     implementation 'org.opencadc:cadc-wcs:[2.2.0,2.4.0)'
     implementation 'org.opencadc:jsky:[1.0.0,2.0.0)'
-    implementation 'gov.nasa.gsfc.heasarc:nom-tam-fits:1.22.0'
+    implementation 'org.opencadc:nom-tam-fits:1.22.2-2'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:[4.13,5.0)'
